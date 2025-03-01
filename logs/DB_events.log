@@ -1,0 +1,51 @@
+[01/03/2025 at 18:41:05] [INFO] Loading friends data from CSV
+[01/03/2025 at 18:41:05] [INFO] Loaded friends data from CSV
+[01/03/2025 at 18:41:05] [INFO] Player 9833 tried to add an existing friend 1001
+[01/03/2025 at 18:41:05] [INFO] Player 9833 tried to add an existing friend 2033
+[01/03/2025 at 18:41:05] [INFO] Player 9833 tried to add an existing friend 4502
+[01/03/2025 at 18:41:05] [INFO] Player 2033 tried to add an existing friend 4502
+[01/03/2025 at 18:41:05] [WARNING] No Friendship between 9833 and 2033
+[01/03/2025 at 18:41:05] [INFO] Saving friends data to CSV
+[01/03/2025 at 18:41:05] [INFO] Saved friends data to CSV
+[01/03/2025 at 18:44:51] [INFO] Loading friends data from CSV
+[01/03/2025 at 18:44:51] [WARNING] Skipping empty/corrupted line : 1001;
+[01/03/2025 at 18:44:51] [WARNING] Skipping empty/corrupted line : 2033;
+[01/03/2025 at 18:44:51] [WARNING] Skipping empty/corrupted line : 9833;
+[01/03/2025 at 18:44:51] [INFO] Loaded friends data from CSV
+[01/03/2025 at 18:44:51] [INFO] Player 9833 tried to add an existing friend 1001
+[01/03/2025 at 18:44:51] [INFO] Player 9833 and player 1001 are confirmed friends now
+[01/03/2025 at 18:44:51] [INFO] Player 9833 tried to add an existing friend 2033
+[01/03/2025 at 18:44:51] [INFO] Player 9833 and player 2033 are confirmed friends now
+[01/03/2025 at 18:44:51] [INFO] Player 9833 tried to add an existing friend 4502
+[01/03/2025 at 18:44:51] [INFO] Player 9833 and player 4502 are confirmed friends now
+[01/03/2025 at 18:44:51] [INFO] Player 2033 tried to add an existing friend 4502
+[01/03/2025 at 18:44:51] [WARNING] No pending friendship request found between 2033 and 1001
+[01/03/2025 at 18:44:51] [INFO] Removed Friendship between 9833 and 2033
+[01/03/2025 at 18:44:51] [INFO] Saving friends data to CSV
+[01/03/2025 at 18:44:51] [INFO] Saved friends data to CSV
+[01/03/2025 at 18:50:45] [INFO] Loading friends data from CSV
+[01/03/2025 at 18:50:45] [INFO] Loaded friends data from CSV
+[01/03/2025 at 18:50:45] [INFO] Player 9833 tried to add an existing friend 1001
+[01/03/2025 at 18:50:45] [INFO] Player 9833 and player 1001 are confirmed friends now
+[01/03/2025 at 18:50:45] [INFO] Player 9833 tried to add an existing friend 2033
+[01/03/2025 at 18:50:45] [INFO] Player 9833 and player 2033 are confirmed friends now
+[01/03/2025 at 18:50:45] [INFO] Player 9833 tried to add an existing friend 4502
+[01/03/2025 at 18:50:45] [INFO] Player 9833 and player 4502 are confirmed friends now
+[01/03/2025 at 18:50:45] [INFO] Player 2033 tried to add an existing friend 4502
+[01/03/2025 at 18:50:45] [WARNING] No pending friendship request found between 2033 and 1001
+[01/03/2025 at 18:50:45] [INFO] Removed Friendship between 9833 and 2033
+[01/03/2025 at 18:50:45] [INFO] Saving friends data to CSV
+[01/03/2025 at 18:50:45] [INFO] Saved friends data to CSV
+[01/03/2025 at 18:51:33] [INFO] Loading friends data from CSV
+[01/03/2025 at 18:51:33] [INFO] Loaded friends data from CSV
+[01/03/2025 at 18:51:33] [INFO] Player 9833 tried to add an existing friend 1001
+[01/03/2025 at 18:51:33] [INFO] Player 9833 and player 1001 are confirmed friends now
+[01/03/2025 at 18:51:33] [INFO] Player 9833 tried to add an existing friend 2033
+[01/03/2025 at 18:51:33] [INFO] Player 9833 and player 2033 are confirmed friends now
+[01/03/2025 at 18:51:33] [INFO] Player 9833 tried to add an existing friend 4502
+[01/03/2025 at 18:51:33] [INFO] Player 9833 and player 4502 are confirmed friends now
+[01/03/2025 at 18:51:33] [INFO] Player 2033 tried to add an existing friend 4502
+[01/03/2025 at 18:51:33] [WARNING] No pending friendship request found between 2033 and 1001
+[01/03/2025 at 18:51:33] [INFO] Removed Friendship between 9833 and 2033
+[01/03/2025 at 18:51:33] [INFO] Saving friends data to CSV
+[01/03/2025 at 18:51:33] [INFO] Saved friends data to CSV

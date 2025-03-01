@@ -1,25 +1,2 @@
-
-
-
-
-  PLAYER DATABASE STRUCTURE?
-|-------------------------------------------------------------------|
-| ID   |  username  | IP_Adress | Email Adress        | password    |
-|------|------------|-----------|---------------------|-------------|
-|0982  |alex653     |127.0.0.1  |exemple1@gmail.com   |g"1oL.0!?/Hk9|
-|      |            |           |		       		  |		        |
-|      |            |           |                     |             |
-|      |            |           |                     |             |
-|      |            |           |                     |             |
-|      |            |           |                     |             |
-|      |            |           |                     |             |
-|      |            |           |                     |             |
-|      |            |           |                     |             |
-|      |            |           |                     |             |
-|-------------------------------------------------------------------|
-
-ID,username,IP_Address,Email_Address,password
-
-
-
-
+6,someName,192.162.1.108,newemail@gmail.com,myPasswordHaha
+8,someName,192.162.1.108,newemail@gmail.com,myPasswordHaha

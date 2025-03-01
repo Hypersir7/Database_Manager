@@ -1,4 +1,5 @@
 #include "../include/leaderboard.hpp"
+#include "../myTools/loggerTools/logger.hpp" // un module Logger que j'ai CREE pour suivre les evenements de la BDD
 #include <fstream>
 #include <iostream>
 #include <sstream>
@@ -54,6 +55,7 @@ void Leaderboard::addScore(const std::string &playerName, int score){
     // car ca cree des repetitions d'affichage de socre quand j'ai teste le code
     for(auto &items: scores){
         if(items.first == playerName){
+            Logger::logMessage("Added score for player " + playerName + ": " + std::to_string(score), "INFO");
             items.second = score; // juste mettre a jour le score
             playerAlreadyExists = true;
             break;
@@ -80,11 +82,14 @@ void Leaderboard::saveScores(){
     std::ofstream leaderboardFile(filename, std::ofstream::trunc); // vide le fichier avant d'y ecrire
 
     if(!leaderboardFile.is_open()){
+        Logger::logMessage("Could not open leaderboard.csv", "ERROR");
         std::cerr << "[Error while loading data] : could not open file:" << filename << std::endl;
     }else{
+        Logger::logMessage("Saving scores of leaderboard to CSV", "INFO");
         for(const auto &items: scores){
             leaderboardFile << items.first << "," << items.second << "\n";
         }
+        Logger::logMessage("Saved scores of leaderboard to CSV", "INFO");
         leaderboardFile.close();
     }
 }

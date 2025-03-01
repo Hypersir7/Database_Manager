@@ -2,9 +2,11 @@
 #include <string>
 
 
+int ClientData::nextClientID = 1;
+
 ClientData::ClientData(std::string InitUsername, std::string InitIpAddress,std::string InitEmailAdress, 
 			                   								std::string InitPassword){
-	// constructeur qui va initialiser les donnees 
+	// constructeur qui va initialiser les donnees
 	username = InitUsername;
 	ipAddress = InitIpAddress;
 	emailAddress = InitEmailAdress;
@@ -13,7 +15,7 @@ ClientData::ClientData(std::string InitUsername, std::string InitIpAddress,std::
 
 
 int ClientData::getId() const {
-	return id;
+	return clientID;
 }
 
 std::string ClientData::getUsername() const {
@@ -50,8 +52,16 @@ void ClientData::setPassword(const std::string &newPassword){
 }
 
 std::string ClientData::buildCSVformat() const {
-	std::string stringID = std::to_string(id);
+	std::string stringID = std::to_string(clientID);
 	std::string csvDataFormat = stringID + "," + username + "," + ipAddress + "," + emailAddress + "," + password;
 
 	return csvDataFormat;
+}
+
+
+void ClientData::setId(int exitingID){
+	int clientID = exitingID;
+	if(exitingID >= nextClientID){
+		nextClientID = exitingID + 1;
+	}
 }
